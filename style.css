@@ -1,0 +1,82 @@
+#title {
+    font-family: "Archivo Black";
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+#subtitle {
+    font-family: "montserrat";
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#card-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 245, 245);
+    border-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    border-width: 0.15rem;
+    width: 40rem;
+    border-style: solid;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 30rem;
+}
+
+.blue-background {
+    background: linear-gradient(to bottom, #040b81, #080e7a);
+    color: white;
+}
+
+.name {
+    font-family: archivo black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cost {
+    font-family: "montserrat";
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-family: "montserrat";
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+
+.needed {
+    font-family: "montserrat";
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+
+.purple-background {
+    background: linear-gradient(to bottom, #5c0481, #6b087a);
+    color: white;
+}
